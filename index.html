@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#4285f4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex">
+                <div class="left flex i-center ">
+                    <div class="brand flex i-center">
+                        <img style="height: 50px; margin-right: 2rem;" src="./images/logo2.svg" alt="logo">
+                        <h1 style="color: white; font-size: 40px;">Portfolio</h1>
+                    </div>
+                    <div class="links">
+                        <a href="#">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skill">Skills</a>
+                        <a href="#project">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div style="align-items: center;" class="flex i-center">
+            <img style="padding: 0 250px;border-radius: 50px;" src="./images/jayesh.jpg" alt="">
+            <div class="info">
+                <h1 style="color: black;"><strong style="color:aqua;">I'm</strong><br>Jayesh&nbsp;Bhave</h1>
+                <br>
+                <hr style="border: 1px solid black;">
+                <h2 style="color: black;">Website&nbsp;Developer&nbsp;and&nbsp;Android&nbsp;Developer</h2>
+                <hr style="border: 1px solid black;">
+            </div>
+        </div>
+    </header>
+    <div class="about-sec">
+        <div id="about">
+            <br>
+            <br>
+            <h1 style="text-align: center;font-size: 40px;">About</h1>
+            <hr style="margin: 0 400px; border: 1px solid black;">
+            <br>
+        </div>
+        <div class="i-center" style="justify-content: space-evenly;">
+            <br>
+            <br>
+            <div style="margin: 0 70px;">
+                <p style="font-size: larger;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Myself <strong>Jayesh Bhave</strong> from Aurnagabad, currently pursuing B.Tech in Computer Engineering from VIIT College.</p>            
+                <p style="font-size: larger;">I am Enthusiastic Learner and interested in Programming to make and Develop new thing that can be useful for society.</p>
+                <p style="font-size: larger;">I also have interest in CyberSecurity and also Exploring various things in that.</p>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div>
+        <div class="skills" id="skill">
+            <h2>My Skills</h2>
+            <li><h4>HTML5</h4><span class="bar"><span class="html"></span></span></li>
+            <li><h4>CSS3</h4><span class="bar"><span class="css"></span></span></li>
+            <li><h4>PYTHON</h4><span class="bar"><span class="python"></span></span></li>
+            <li><h4>C/C++</h4><span class="bar"><span class="cpp"></span></span></li>
+        </div>
+    </div>
+    <div class="project" id="project">
+        <br>
+        <hr color="black" width="300px" style="margin-left: 520px;">
+        <h1 style="text-align: center;">Projects</h1>
+        <hr color="black" width="300px" style="margin-left: 520px;">
+        <div class="flex cards">
+            <div class="main-card">
+                <h2 style="color: black;">Project 1</h2>
+                <br>
+                <img src="./images/browser1.png" alt="Project1" style="height: 150px;">
+                <br>
+                <h2 style="color: black;">Made Own Browser using Python</h2>
+                <br>
+                <p style="font-size: 20px; color: #46253b;">By using Python made a browser the works like other like surfing, searching, downloading</p>
+            </div>
+            <div class="main-card">
+                <h2 style="color: black;">Project 2</h2>
+                <br>
+                <img src="./images/web.jpg" alt="Project2" style="height: 200px;">
+                <h2 style="color: black;">Developed Website Frontend using HTML and CSS</h2>
+                <br>
+                <p style="font-size: 20px; color: #46253b;">Used HTML5 and CSS3 for Developing Website Frontend</p>
+            </div>
+            <div class="main-card">
+                <h2 style="color: black;">Project 3</h2>
+                <br>
+                <img src="./images/calci1.svg" alt="Project3" style="height: 200px;">
+                <h2 style="color: black;">Calulator using Python and Tkinter</h2>
+                <br>
+                <p style="font-size: 20px; color: #46253b;">Used Tkinter for GUI and Python for Working of Calculator</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="contact" id="contact">
+        <hr color="black" width="300px" style="margin-left: 530px;">
+        <h1>Contact Me</h1>
+        <hr color="black" width="300px" style="margin-left: 530px;">
+        
+        <div>
+            <form>
+                <input name="name" type="text" class="contact-in" placeholder="Name"/>
+                <input name="email" type="text" class="contact-in" placeholder="Email"/>
+                <textarea name="text" class="contact-in" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT"/>
+            </form>
+        </div> 
+    </div>
+    <footer style="text-align: center;">
+        <h2 class="footer-header">Get in Touch</h2>
+        <div>
+            <ul>
+                <li style="display: inline; margin: 1rem;"><a href="https://www.instagram.com/j_b_2410/" target="_blank"><img height="25px" src="./images/instagram.png" alt="Instagram"></a></li>
+                <li style="display: inline; margin: 1rem;"><a href="https://www.linkedin.com/in/jayesh-bhave-2410" target="_blank"><img height="25px" src="./images/linkedin.png" alt="LinkedIn"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
